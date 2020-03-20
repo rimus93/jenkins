@@ -124,8 +124,8 @@ THE SOFTWARE.
        *not* defined the specific details in the settings.xml file. -->
   <repositories>
     <repository>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <id>maven-group</id>
+      <url>http://nexus.localdomain/repository/maven-public/</url>
       <!-- allow snapshots -->
     </repository>
   </repositories>
