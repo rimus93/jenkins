@@ -124,16 +124,16 @@ THE SOFTWARE.
        *not* defined the specific details in the settings.xml file. -->
   <repositories>
     <repository>
-      <id>maven-group</id>
-      <url>http://nexus.localdomain/repository/maven-public/</url>
+      <id>maven-central</id>
+      <url>http://nexus.localdomain/repository/maven-central/</url>
       <!-- allow snapshots -->
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
-      <id>maven-group</id>
-      <url>http://nexus.localdomain/repository/maven-public/</url>
+      <id>maven-central</id>
+      <url>http://nexus.localdomain/repository/maven-central/</url>
     </pluginRepository>
   </pluginRepositories>
 
