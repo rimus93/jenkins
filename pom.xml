@@ -64,10 +64,14 @@ THE SOFTWARE.
   </scm>
 
   <distributionManagement>
-    <site>
-      <id>github-pages</id>
-      <url>gitsite:git@github.com/jenkinsci/maven-site.git:core</url>
-    </site>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://nexus.localdomain/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://nexus.localdomain/repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
 
   <issueManagement>
@@ -128,8 +132,8 @@ THE SOFTWARE.
 
   <pluginRepositories>
     <pluginRepository>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
+      <id>maven-group</id>
+      <url>http://nexus.localdomain/repository/maven-public/</url>
     </pluginRepository>
   </pluginRepositories>
 
